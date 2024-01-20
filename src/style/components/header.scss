@@ -1,0 +1,21 @@
+.header_container{
+    max-width:1240px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto;
+}
+
+
+
+.nav_header{
+    line-height: 60px;
+    display: flex;
+    gap:57px;
+
+    a{
+        color: $main;
+        text-decoration: none;
+    }
+
+}

@@ -1,0 +1,20 @@
+.footer_container{
+    background-color: $footer;
+    height: 209px;
+    margin: 0 calc(50% - 50vw);
+    color: white;
+    position: relative;
+    .footer_contents{
+        position: absolute;
+        top: 66px;
+        left:50%;
+        transform: translateX(-50%);
+
+        p{
+            margin-top: 28px;
+            line-height: 142.6%;
+        }
+
+    }
+
+}
