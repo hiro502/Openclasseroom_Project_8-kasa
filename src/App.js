@@ -3,8 +3,10 @@ import './style/App.scss';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer" 
-import Home from "./pages/acceuil/Home";
-
+import Home from "./pages/acceuil/Home"
+import FicheLogement from "./pages/logement/FicheLogement"
+import NotFound from "./pages/error/NotFound"
+import A_propos from "./pages/a_propos/A_propos"
 
 
 function App() {
@@ -16,9 +18,9 @@ function App() {
 			<main>
 				<Routes>
 					<Route path="/" exact element={<Home />} />
-					{/* <Route path="/a-propos" element={<A-propos />} />
+					<Route path="/a_propos" element={<A_propos />} />
 					<Route path="/logement/:id" element={<FicheLogement />} />
-					<Route element={<Error />} /> */}
+					<Route path="*" element={<NotFound />} /> 
 				</Routes>
 			</main>
 			<Footer />

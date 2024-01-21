@@ -1,11 +1,11 @@
-import img from "../../assets/banner-acceuil.png"
 
-export default function Banner() {
+
+export default function Banner({img, text, page}) {
   return (
     <div className="banner">
-        <img src={img} alt="" />
+        <img src={img} alt={`banner d'${page}`} />
         <div className="banner_overlay"></div>
-        <h1>Chez vous, partout et ailleurs</h1>
+        <h1>{text}</h1>
     </div>
   )
 }

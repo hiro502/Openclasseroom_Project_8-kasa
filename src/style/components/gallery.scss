@@ -1,0 +1,11 @@
+.cards_container{
+    max-width: 1240px;
+    border-radius: 25px;
+    background-color: $gray;
+    margin: 45px auto 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:60px;
+    padding: 56px 50px 43px;
+}

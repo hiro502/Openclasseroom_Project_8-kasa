@@ -6,7 +6,7 @@ export default function Nav() {
 			<Link to="/" className="">
 				Accueil
 			</Link>
-			<Link to="/a-propos" className="">
+			<Link to="/a_propos" className="">
 				A Propos
 			</Link>
 		</nav>
