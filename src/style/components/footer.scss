@@ -1,7 +1,7 @@
+
 .footer_container{
     background-color: $footer;
     height: 209px;
-    margin: 0 calc(50% - 50vw);
     color: white;
     position: relative;
     .footer_contents{
@@ -13,6 +13,10 @@
         p{
             margin-top: 28px;
             line-height: 142.6%;
+        }
+    
+        .footer_logo{
+            text-align: center;
         }
 
     }

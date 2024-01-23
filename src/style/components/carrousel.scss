@@ -1,7 +1,6 @@
 .carrousel_container{
-    max-width: 1240px;
     height: 415px;
-    margin: 50px auto 30px;
+    margin: 50px 100px 30px;
     position: relative;
 
     img{
@@ -13,9 +12,9 @@
         transition: opacity 0.5s ease;
     }
     
-    img.active {
-        opacity: 1;
-    }
+    // img.active {
+    //     opacity: 1;
+    // }
     
 }
 

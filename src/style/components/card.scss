@@ -1,5 +1,10 @@
+.card{
+    width: calc((100% - 120px)/3);
+}
+
+
 .card_content{
-    width: 340px;
+    
     height: 340px;
     border-radius: 10px;
     position: relative;

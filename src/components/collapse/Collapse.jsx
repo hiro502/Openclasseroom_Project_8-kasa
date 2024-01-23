@@ -3,12 +3,13 @@ import img from "../../assets/arrow_up.svg"
 
 
 
-export default function Collapse({page, title, text}) {
+export default function Collapse({page, title, text, list}) {
     const [open, setOpen] = useState(false);
     const handleCollapseClick = () => {
         setOpen(!open);
         };
-
+  
+    const listItems = list ? list.map(txt => <li key={txt}>{txt}</li>) : null;
         
 
   return (
@@ -24,6 +25,9 @@ export default function Collapse({page, title, text}) {
          <div  className="collapse_content"
         style={{maxHeight: open ? "200px" : "0px" }}>
            <p>{text}</p>
+           <ul>
+            {listItems}
+           </ul>
         </div>
 
     </div>

@@ -1,10 +1,11 @@
 import Carrousel from "../../components/carrousel/Carrousel";
+import FicheLogement from "../../components/ficheLogement/FicheLogement";
 import { useLocation } from "react-router-dom";
 
 
 
 
-export default function FicheLogement() {
+export default function Logement() {
   
   const location = useLocation();
   const currentURL = location.pathname;
@@ -16,8 +17,7 @@ export default function FicheLogement() {
   return (
     <div>
       <Carrousel targetId={targetId}/>
-
-      dqsd
+      <FicheLogement targetId={targetId}/>
     </div>
   )
 }

@@ -28,6 +28,7 @@ const Carrousel = ({ targetId }) => {
     fetchData();
   }, [targetId, fetchObjectById]);
 
+
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + data.pictures.length) % data.pictures.length);
   };
@@ -44,7 +45,7 @@ const Carrousel = ({ targetId }) => {
 
   return (
     <div className='carrousel_container'>
-      <img className={currentIndex === 0 ? 'active' : ''} src={pictures[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+      <img src={pictures[currentIndex]} alt={`Image ${currentIndex + 1}`} />
       {data.pictures.length > 1 && (
         <div className='carrousel_fleche'>
           <img src={flecheGauche} alt='fleche gauche' onClick={handlePrev} />
@@ -59,3 +60,6 @@ const Carrousel = ({ targetId }) => {
 };
 
 export default Carrousel;
+
+
+// className={currentIndex === 0 ? 'active' : ''} 

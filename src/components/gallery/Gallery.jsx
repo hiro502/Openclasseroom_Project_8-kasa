@@ -28,7 +28,7 @@ export default function Gallery() {
   return (
     <div className="cards_container">
       {dataLogements.map((dataLogements, id) => (
-        <Link to={`/logement/${dataLogements.id}`}>
+        <Link className='card' to={`/logement/${dataLogements.id}`}>
           <Card key={id} data={dataLogements} />
         </Link>
       ))}

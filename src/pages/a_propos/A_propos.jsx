@@ -27,6 +27,7 @@ export default function A_propos() {
   fetchData();
 }, []);
 
+
   return (
     <>
       <Banner img={img} page='A propos'/>
