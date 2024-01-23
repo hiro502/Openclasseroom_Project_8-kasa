@@ -1,6 +1,6 @@
 import React from "react";
 import './style/App.scss';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer" 
 import Acceuil from "./pages/acceuil/Acceuil"
@@ -12,8 +12,7 @@ import A_propos from "./pages/a_propos/A_propos"
 function App() {
   return (
     
-    <BrowserRouter>
-    	<div>
+    <HashRouter>
 			<Header />
 			<main>
 				<Routes>
@@ -24,8 +23,7 @@ function App() {
 				</Routes>
 			</main>
 			<Footer />
-		</div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
