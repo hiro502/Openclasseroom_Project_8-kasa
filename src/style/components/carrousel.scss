@@ -1,0 +1,45 @@
+.carrousel_container{
+    max-width: 1240px;
+    height: 415px;
+    margin: 50px auto 30px;
+    position: relative;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+        opacity: 0.8;
+        transition: opacity 0.5s ease;
+    }
+    
+    img.active {
+        opacity: 1;
+    }
+    
+}
+
+.carrousel_fleche{
+        width: 100%;
+        padding: 23px;
+        display: flex;
+        justify-content: space-between;
+        top: 50%; 
+        transform: translateY(-50%);
+        position: absolute;
+        img{
+            width: 47px;
+            height: 80px;
+            cursor: pointer;
+        }
+
+    }
+    
+ .carrousel_counter{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+ }   

@@ -1,22 +1,32 @@
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 import img from "../../assets/arrow_up.svg"
 
-export default function Collapse({page, text}) {
-    const [open, setOpen] = useState(false)
-    const handleCollapseClick = () => setOpen((prev) => !prev)
-    console.log(open);
 
+
+export default function Collapse({page, title, text}) {
+    const [open, setOpen] = useState(false);
+    const handleCollapseClick = () => {
+        setOpen(!open);
+        };
+
+        
 
   return (
     <div className={`${page}_collapse_container`}>
-        <div className="collapse_header collapse_default">
-            <h3>{text}Fiabilité</h3>
-            <img src={img} alt=""  onClick={handleCollapseClick}/>
+        <div className="collapse_header">
+            <h3>{title}</h3>
+            <img src={img} 
+            alt="image du toggle"  
+            onClick={handleCollapseClick}
+            className={`rotating-image ${open ? 'rotate-180' : ''}`}
+            />
         </div>
-        <div className="collapse_content">
-            <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
+         <div  className="collapse_content"
+        style={{maxHeight: open ? "200px" : "0px" }}>
+           <p>{text}</p>
         </div>
 
     </div>
   )
 }
+
