@@ -12,7 +12,7 @@ import A_propos from "./pages/a_propos/A_propos"
 function App() {
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="App">
 			<Header />
 			<main>
