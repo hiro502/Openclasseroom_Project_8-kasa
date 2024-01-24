@@ -4,7 +4,7 @@ import Nav from "../../components/header/Nav"
 const Header = () => {
   return (
     <header className='header_container'>
-      <div>
+      <div className="logo_kasa">
         <img src={logo} alt="logo de Kasa" />
       </div>
       <Nav />

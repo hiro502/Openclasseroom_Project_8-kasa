@@ -2,10 +2,21 @@
     color: $red;
     margin: 30px 100px 20px;
 
+    @media screen and (max-width:$mobile){
+        margin: 15px 20px 27px;
+    }
+
     .logement_title{
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
+
+        @media screen and (max-width:$mobile){
+            flex-direction: column;
+            margin-bottom: 0px;
+            
+        }
+    
     }
 
     .logement_title_content{
@@ -14,11 +25,19 @@
 
         h2{
             margin: 0;
+            @media screen and (max-width:$mobile){
+                font-size: 18px;
+            }
         }
 
         p{
-            font-size: 18px;
+            
             margin-top: 0px;
+            @media screen and (max-width:$mobile){
+                font-size: 14px;
+                margin: 8px 0;
+            }
+
         }
 
 
@@ -26,7 +45,13 @@
 
     .logement_collapse{
         display: flex;
-        justify-content: space-between;    
+        justify-content: space-between;   
+        
+        @media screen and (max-width:$mobile){
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
     }
 }
 
@@ -40,28 +65,61 @@
     text-align: center;
     margin-right: 10px;
 
-}
+    @media screen and (max-width:$mobile){
+     font-size: 10px;   
+    }
 
+}
+.logement_host_container{
+    @media screen and (max-width:$mobile){
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        position: relative;
+        height: 60px;
+    }
+}
 
 .logement_host{
     display: flex;
     gap: 10px;
 
+    @media screen and (max-width:$mobile){
+     height: 32px;  
+     margin-top: 12px;
+     
+    }
+
     p{
         height: 52px;
         width: 93px;
         text-align: end;
+        @media screen and (max-width:$mobile){
+            font-size: 12px;
+            margin: 0px;
+            height: 32px;
+            line-height: 32px;
+        }
     }
 
     img{
         width: 64px;
         height: 64px;
         border-radius: 32px;
+        @media screen and (max-width:$mobile){
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+
+        }
     }
 }
 
 .logement_rate{
     text-align: end;
+    @media screen and (max-width:$mobile){
+       line-height: 60px; 
+    }
 }
 
 .star{

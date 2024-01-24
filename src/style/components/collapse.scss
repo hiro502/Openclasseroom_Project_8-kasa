@@ -1,13 +1,22 @@
 .apropos_collapse_container{
-    max-width: 1023px;
-    margin: 0 auto 40px;
+   
+    margin: 0 200px 40px;
     display: flex;
     flex-direction: column;
     gap: 0px;
+
+    @media screen and (max-width:$mobile){
+        margin: 0 20px 20px;
+    }
+
 }
 
 .logement_collapse_container{
-    width: 582px;
+    width: calc((100% - 76px)/2);
+    @media screen and (max-width:$mobile){
+     width: 100%;   
+     
+    }
 }
 
 
@@ -20,16 +29,23 @@
     border-radius: 10px;
     z-index: 1;
 
+   
+
     img{
         width: 32px;
         height: 32px;
         margin: 10px 20px;
+
     }
 
     h3{
         color: white;
         line-height: 52px;
         margin: 0 10px;
+        @media screen and (max-width:$mobile){
+           font-size: 13px;   
+            
+           }
     }
 }
 

@@ -1,31 +1,30 @@
 import Banner from '../../components/banner/Banner'
 import Collapse from '../../components/collapse/Collapse'
 import img from '../../assets/banner-props.png'
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+import dataPropos from '../../data/apropos.json'
 
 
 
 
 export default function A_propos() {
 
- const [dataPropos, setDataPropos] = useState([]);
+//  const [dataPropos, setDataPropos] = useState([]);
 
- useEffect(() => {
-  const fetchData = async () => {
+//  useEffect(() => {
+//   const fetchData = async () => {
 
-    try{
-      const response = await  axios.get('/apropos.json');
-      setDataPropos(response.data);
-      console.log('Data:', response.data);
-    } catch (error) {
-      console.error('Error fetching data', error);
-    }
+//     try{
+//       const response = await  axios.get('/apropos.json');
+//       setDataPropos(response.data);
+//       console.log('Data:', response.data);
+//     } catch (error) {
+//       console.error('Error fetching data', error);
+//     }
 
-  };
+//   };
 
-  fetchData();
-}, []);
+//   fetchData();
+// }, []);
 
 
   return (

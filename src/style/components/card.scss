@@ -1,5 +1,13 @@
 .card{
     width: calc((100% - 120px)/3);
+    @media screen and (max-width:$mobile){
+        width: 100%;
+    }
+    @media screen and (min-width:$mobile + 1) and (max-width: $desktop){
+        width: calc((100% - 48px)/2);
+       
+    }
+
 }
 
 
@@ -21,7 +29,7 @@
         height: 100%;
         position: absolute;
         top: 0%;
-        background-color: $banner-background;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
         border-radius: 10px;
         
         z-index: 2;

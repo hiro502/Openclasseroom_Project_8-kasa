@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Projet-8-kasa/static/css/main.98122b4b.css",
-    "main.js": "/Projet-8-kasa/static/js/main.f38450a8.js",
+    "main.css": "/Projet-8-kasa/static/css/main.45949727.css",
+    "main.js": "/Projet-8-kasa/static/js/main.c79d7792.js",
     "static/js/787.1a333f7d.chunk.js": "/Projet-8-kasa/static/js/787.1a333f7d.chunk.js",
     "static/media/banner-props.png": "/Projet-8-kasa/static/media/banner-props.abab3f12f4cb82f1dfa1.png",
     "static/media/banner-acceuil.png": "/Projet-8-kasa/static/media/banner-acceuil.d00ae7dd3ef927bb988d.png",
@@ -10,12 +10,12 @@
     "static/media/arrow_up.svg": "/Projet-8-kasa/static/media/arrow_up.7452ef7b632905dea1c527d29eefe393.svg",
     "static/media/arrow_right.svg": "/Projet-8-kasa/static/media/arrow_right.dfebbffec6d3865e8655ca0c81ffd33c.svg",
     "static/media/arrow_left.svg": "/Projet-8-kasa/static/media/arrow_left.f3f0bb2c041648c34b954a31fd36c006.svg",
-    "main.98122b4b.css.map": "/Projet-8-kasa/static/css/main.98122b4b.css.map",
-    "main.f38450a8.js.map": "/Projet-8-kasa/static/js/main.f38450a8.js.map",
+    "main.45949727.css.map": "/Projet-8-kasa/static/css/main.45949727.css.map",
+    "main.c79d7792.js.map": "/Projet-8-kasa/static/js/main.c79d7792.js.map",
     "787.1a333f7d.chunk.js.map": "/Projet-8-kasa/static/js/787.1a333f7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98122b4b.css",
-    "static/js/main.f38450a8.js"
+    "static/css/main.45949727.css",
+    "static/js/main.c79d7792.js"
   ]
 }
