@@ -32,18 +32,18 @@ const FicheLogement = ({ targetId }) => {
 
   return (
     <div className='logement_container'>
-      <div className='logement_title'>
-        <div className='logement_title_content'>
+      <div className='logement_fiche'>
+        <div className='logement_title'>
           <h2>{logementData && logementData.title}</h2>
           <p>{logementData && logementData.location}</p>
-          <div>
+          <div className='logement_tag__container'>
             {tags}
           </div>
         </div>
         <div className='logement_host_container'>
           <div className='logement_host'>
             <p>{logementData && logementData.host.name}</p>
-            <img src={logementData && logementData.host.picture} alt="photo de host" />
+            <img src={logementData && logementData.host.picture} alt="Host" />
           </div>
           <div className='logement_rate'>
             {[1, 2, 3, 4, 5].map((index) => (
@@ -53,11 +53,10 @@ const FicheLogement = ({ targetId }) => {
         </div>
       </div>
       <div className='logement_collapse'>
-          <Collapse page='logement' title={"Description"} text={logementData && logementData.description} />
-          <Collapse page='logement' title={"Équipements"} list={logementData && logementData.equipments}/>
+        <Collapse page='logement' title={"Description"} text={logementData && logementData.description} />
+        <Collapse page='logement' title={"Équipements"} list={logementData && logementData.equipments}/>
       </div>
     </div>
   );
 };
-
 export default FicheLogement;

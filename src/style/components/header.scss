@@ -1,16 +1,15 @@
-.header_container{
+.header_container {
     height: 60px;
     display: flex;
     justify-content: space-between;
     margin: 45px 100px;
 
-    @media screen and (max-width:$mobile){
+    @media screen and (max-width:$mobile) {
         margin: 20px 20px 25px;
     }
 
-
-    .logo_kasa{
-        @media screen and (max-width:$mobile){
+    .logo_kasa {
+        @media screen and (max-width:$mobile) {
             height: 46px;
             width: 145px;
         }
@@ -22,25 +21,21 @@
     }
 }
 
-
-
 .nav_header{
     line-height: 60px;
     display: flex;
     gap:57px;
 
-    @media screen and (max-width:$mobile){
+    @media screen and (max-width:$mobile) {
         gap:26px;
     }
     
     a{
         color: $red;
         text-decoration: none;
-
         @media screen and (max-width:$mobile){
             font-size: 12px;
         }
-
     }
 
     a:hover{

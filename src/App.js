@@ -6,7 +6,7 @@ import Footer from "./components/footer/Footer"
 import Acceuil from "./pages/acceuil/Acceuil"
 import Logement from "./pages/logement/Logement"
 import NotFound from "./pages/error/NotFound"
-import A_propos from "./pages/a_propos/A_propos"
+import APropos from "./pages/a_propos/APropos"
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 			<main>
 				<Routes>
 					<Route path="/" exact element={<Acceuil />} />
-					<Route path="/a_propos" element={<A_propos />} />
+					<Route path="/a_propos" element={<APropos />} />
 					<Route path="/logement/:id" element={<Logement />} />
 					<Route path="*" element={<NotFound />} /> 
 				</Routes>

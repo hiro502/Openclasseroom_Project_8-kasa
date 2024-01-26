@@ -13,8 +13,7 @@
         p{
             margin-top: 28px;
             line-height: 142.6%;
-
-            @media screen and (max-width:$mobile){
+             @media screen and (max-width:$mobile){
                 width: 133px;
                 margin-top: 20px;
                 text-align: center;
@@ -26,7 +25,6 @@
         .footer_logo{
             text-align: center;
         }
-
     }
-
 }
+

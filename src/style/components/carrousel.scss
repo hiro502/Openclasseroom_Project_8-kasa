@@ -1,14 +1,14 @@
-.carrousel_container{
+.carrousel_container {
     height: 415px;
     margin: 50px 100px 30px;
     position: relative;
     
-    @media screen and (max-width:$mobile){
+    @media screen and (max-width:$mobile) {
         margin: 0 20px 20px;
         height: 255px;
     }
-
-    img{
+    
+    img {
         height: 100%;
         width: 100%;
         object-fit: cover;
@@ -16,48 +16,42 @@
         opacity: 0.8;
         transition: opacity 0.5s ease;
     }
-    
-  
 }
 
-.carrousel_fleche{
-        width: 100%;
-        padding: 23px;
-        display: flex;
-        justify-content: space-between;
-        top: 50%; 
-        transform: translateY(-50%);
-        position: absolute;
-
-        @media screen and (max-width:$mobile){
-            padding:12px;
-        }
+.carrousel_fleche {
+    width: 100%;
+    padding: 23px;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
     
-
-
-        img{
-            width: 47px;
-            height: 80px;
-            cursor: pointer;
-
-            @media screen and (max-width:$mobile){
-                width: 24px;
-                height: 40px;
-            }
-        
-
-        }
-
+    @media screen and (max-width:$mobile) {
+        padding: 12px;
     }
     
- .carrousel_counter{
+    img {
+        width: 47px;
+        height: 80px;
+        cursor: pointer;
+        
+        @media screen and (max-width:$mobile) {
+            width: 24px;
+            height: 40px;
+        }
+    }
+}
+
+.carrousel_counter {
     color: white;
     font-size: 18px;
     position: absolute;
     bottom: 23px;
     left: 50%;
     transform: translateX(-50%);
-    @media screen and (max-width:$mobile){
-     display: none;   
+    
+    @media screen and (max-width:$mobile) {
+        display: none;
     }
- }   
+}
