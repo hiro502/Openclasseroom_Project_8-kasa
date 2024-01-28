@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import  { useState, useEffect, useCallback } from 'react';
 import flecheDroite from '../../assets/arrow_right.svg';
 import flecheGauche from '../../assets/arrow_left.svg';
 import data from '../../data/logements.json';
@@ -42,7 +42,7 @@ const Carrousel = ({ targetId }) => {
 
   return (
     <div className='carrousel_container'>
-      <img src={pictures[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+      <img src={pictures[currentIndex]} alt={` ${currentIndex + 1}`} />
       {currentData.pictures.length > 1 && (
         <div className='carrousel_fleche'>
           <img src={flecheGauche} alt='fleche gauche' onClick={handlePrev} />

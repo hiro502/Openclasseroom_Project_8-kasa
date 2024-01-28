@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLocation, Navigate } from 'react-router-dom';
 import Carrousel from '../../components/carrousel/Carrousel';
 import FicheLogement from '../../components/ficheLogement/FicheLogement';
