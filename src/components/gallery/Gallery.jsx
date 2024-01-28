@@ -5,7 +5,6 @@ import dataLogements from '../../data/logements.json';
 
 export default function Gallery() {
   const idArray = dataLogements.map(item => item.id);
-  console.log(idArray);
   return (
     <div className="cards_container">
       {dataLogements.map((dataLogements) => (
