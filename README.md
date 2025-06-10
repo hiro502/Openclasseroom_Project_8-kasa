@@ -30,7 +30,7 @@ L'objectif inclut également l'ajout d'**animations simples** pour améliorer l'
 ```bash
 npm install
 npm start
-
+```
 ---
 
 ## Lien vers l'Application Déployée
