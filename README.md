@@ -1,16 +1,39 @@
-# Projet n°08 - Créez une application web de location immobilière avec React
+# Projet n°08 - Kasa : Application Web de Location Immobilière avec React
 
-## Objectif
+## Objectif du Projet
 
-: Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma
+Ce projet a pour but de développer **Kasa**, une application web de location immobilière moderne et réactive, construite avec **React**.
 
-## Outils et contraintes techniques
+L'objectif inclut également l'ajout d'**animations simples** pour améliorer l'expérience utilisateur, ainsi que l'implémentation d'une **galerie d'images sous forme de slider** sur les pages de détail des logements.
 
-● Create React App
-● React Router
-● Styling: Styling: Tout le style CSS doit être codé en utilisant Sass.
-● Pas de librairie React externe
+---
 
+## Aperçu du Projet
 
-# Lien
-https://hiro502.github.io/Projet-8-kasa/
+![Page d'accueil de Kasa](./public/screenshot-1.png)
+
+![Page de détail d'un logement](./public/screenshot-2.png)
+
+---
+
+## Technologies Utilisées
+
+- **React (via Create React App)**
+- **React Router**
+- **Sass**
+- **Pas de librairie React externe**
+
+---
+
+## Guide d'Installation et d'Utilisation
+
+npm install
+npm start
+
+---
+
+## Lien vers l'Application Déployée
+
+Vous pouvez découvrir l'application Kasa via le lien ci-dessous :
+
+[**https://hiro502.github.io/Openclasseroom_Project_8-kasa/**](https://hiro502.github.io/Openclasseroom_Project_8-kasa/)
