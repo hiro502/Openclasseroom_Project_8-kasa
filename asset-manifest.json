@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Projet-8-kasa/static/css/main.e68b9413.css",
-    "main.js": "/Projet-8-kasa/static/js/main.c271271d.js",
-    "static/js/787.1a333f7d.chunk.js": "/Projet-8-kasa/static/js/787.1a333f7d.chunk.js",
-    "static/media/banner-props.png": "/Projet-8-kasa/static/media/banner-props.abab3f12f4cb82f1dfa1.png",
-    "static/media/banner-acceuil.png": "/Projet-8-kasa/static/media/banner-acceuil.d00ae7dd3ef927bb988d.png",
-    "static/media/logo-aceeuil.svg": "/Projet-8-kasa/static/media/logo-aceeuil.834bc052d72967b51536eb86c2a6c4b8.svg",
-    "index.html": "/Projet-8-kasa/index.html",
-    "static/media/arrow_up.svg": "/Projet-8-kasa/static/media/arrow_up.7452ef7b632905dea1c527d29eefe393.svg",
-    "static/media/arrow_right.svg": "/Projet-8-kasa/static/media/arrow_right.dfebbffec6d3865e8655ca0c81ffd33c.svg",
-    "static/media/arrow_left.svg": "/Projet-8-kasa/static/media/arrow_left.f3f0bb2c041648c34b954a31fd36c006.svg",
-    "main.e68b9413.css.map": "/Projet-8-kasa/static/css/main.e68b9413.css.map",
-    "main.c271271d.js.map": "/Projet-8-kasa/static/js/main.c271271d.js.map",
-    "787.1a333f7d.chunk.js.map": "/Projet-8-kasa/static/js/787.1a333f7d.chunk.js.map"
+    "main.css": "/Openclasseroom_Project_8-kasa/static/css/main.e68b9413.css",
+    "main.js": "/Openclasseroom_Project_8-kasa/static/js/main.8fbdf729.js",
+    "static/js/787.1a333f7d.chunk.js": "/Openclasseroom_Project_8-kasa/static/js/787.1a333f7d.chunk.js",
+    "static/media/banner-props.png": "/Openclasseroom_Project_8-kasa/static/media/banner-props.abab3f12f4cb82f1dfa1.png",
+    "static/media/banner-acceuil.png": "/Openclasseroom_Project_8-kasa/static/media/banner-acceuil.d00ae7dd3ef927bb988d.png",
+    "static/media/logo-aceeuil.svg": "/Openclasseroom_Project_8-kasa/static/media/logo-aceeuil.834bc052d72967b51536eb86c2a6c4b8.svg",
+    "index.html": "/Openclasseroom_Project_8-kasa/index.html",
+    "static/media/arrow_up.svg": "/Openclasseroom_Project_8-kasa/static/media/arrow_up.7452ef7b632905dea1c527d29eefe393.svg",
+    "static/media/arrow_right.svg": "/Openclasseroom_Project_8-kasa/static/media/arrow_right.dfebbffec6d3865e8655ca0c81ffd33c.svg",
+    "static/media/arrow_left.svg": "/Openclasseroom_Project_8-kasa/static/media/arrow_left.f3f0bb2c041648c34b954a31fd36c006.svg",
+    "main.e68b9413.css.map": "/Openclasseroom_Project_8-kasa/static/css/main.e68b9413.css.map",
+    "main.8fbdf729.js.map": "/Openclasseroom_Project_8-kasa/static/js/main.8fbdf729.js.map",
+    "787.1a333f7d.chunk.js.map": "/Openclasseroom_Project_8-kasa/static/js/787.1a333f7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e68b9413.css",
-    "static/js/main.c271271d.js"
+    "static/js/main.8fbdf729.js"
   ]
 }
