@@ -27,6 +27,7 @@ L'objectif inclut également l'ajout d'**animations simples** pour améliorer l'
 
 ## Guide d'Installation et d'Utilisation
 
+```bash
 npm install
 npm start
 
